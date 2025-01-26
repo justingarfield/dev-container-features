@@ -1,0 +1,19 @@
+{
+    "name": "ffmpeg binary",
+    "id": "justingarfield-ffmpeg",
+    "version": "1.0.0",
+    "description": "The ffmpeg binary",
+    "options": {
+        "version": {
+            "type": "string",
+            "enum": [
+                "7.1"
+            ],
+            "default": "7.1",
+            "description": "Choose the version of ffmpeg you would like."
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "image": "mcr.microsoft.com/devcontainers/javascript-node:1-22",
+    "features": {
+        "ghcr.io/devcontainers/features/docker-in-docker:2": {}
+    },
+    "onCreateCommand": "npm install -g npm@11.0.0",
+    "postCreateCommand": "npm install -g @devcontainers/cli",
+    "hostRequirements": {
+        "cpus": 4
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "mads-hartmann.bash-ide-vscode"
+            ]
+        }
+    }
+}

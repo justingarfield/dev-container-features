@@ -1,0 +1,19 @@
+{
+    "name": "opentofu binary",
+    "id": "justingarfield-opentofu",
+    "version": "1.0.0",
+    "description": "The opentofu binary",
+    "options": {
+        "version": {
+            "type": "string",
+            "enum": [
+                "1.9.0"
+            ],
+            "default": "1.9.0",
+            "description": "Choose the version of opentofu you would like."
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}

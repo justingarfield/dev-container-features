@@ -1,0 +1,19 @@
+{
+    "name": "yq binary",
+    "id": "justingarfield-yq",
+    "version": "1.0.0",
+    "description": "The yq binary",
+    "options": {
+        "version": {
+            "type": "string",
+            "enum": [
+                "4.45.1"
+            ],
+            "default": "4.45.1",
+            "description": "Choose the version of yq you would like."
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "name": "Cilium CNI CLI binaries",
+    "id": "justingarfield-cilium-cni",
+    "version": "1.0.0",
+    "description": "Cilium CNI CLI binaries",
+    "options": {
+        "version": {
+            "type": "string",
+            "enum": [
+                "0.16.23"
+            ],
+            "default": "0.16.23",
+            "description": "Choose the version of Cilium CLI you would like."
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}

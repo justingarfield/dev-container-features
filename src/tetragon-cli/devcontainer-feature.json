@@ -1,0 +1,19 @@
+{
+    "name": "Tetragon CLI binaries",
+    "id": "justingarfield-tetragon-cli",
+    "version": "1.0.0",
+    "description": "Tetragon CLI binaries",
+    "options": {
+        "version": {
+            "type": "string",
+            "enum": [
+                "1.3.0"
+            ],
+            "default": "1.3.0",
+            "description": "Choose the version of Tetragon CLI you would like."
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}

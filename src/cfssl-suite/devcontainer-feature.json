@@ -1,0 +1,19 @@
+{
+    "name": "CloudFlare cfssl CLI binary suite",
+    "id": "justingarfield-cfssl",
+    "version": "1.0.0",
+    "description": "CloudFlare cfssl CLI binary suite",
+    "options": {
+        "version": {
+            "type": "string",
+            "enum": [
+                "1.6.5"
+            ],
+            "default": "1.6.5",
+            "description": "Choose the version of CloudFlare cfssl you would like."
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}

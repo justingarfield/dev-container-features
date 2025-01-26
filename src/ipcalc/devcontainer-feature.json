@@ -1,0 +1,19 @@
+{
+    "name": "ipcalc binary",
+    "id": "justingarfield-ipcalc",
+    "version": "1.0.0",
+    "description": "ipcalc binary",
+    "options": {
+        "version": {
+            "type": "string",
+            "enum": [
+                "0.51-1"
+            ],
+            "default": "0.51-1",
+            "description": "Choose the version of ipcalc you would like."
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}

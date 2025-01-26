@@ -1,0 +1,19 @@
+{
+    "name": "crane binary",
+    "id": "justingarfield-crane",
+    "version": "1.0.0",
+    "description": "The crane binary",
+    "options": {
+        "version": {
+            "type": "string",
+            "enum": [
+                "0.20.3"
+            ],
+            "default": "0.20.3",
+            "description": "Choose the version of crane you would like."
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}

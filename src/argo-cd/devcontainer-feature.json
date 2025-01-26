@@ -1,0 +1,19 @@
+{
+    "name": "argo-cd CLI binary",
+    "id": "justingarfield-argo-cd",
+    "version": "1.0.0",
+    "description": "The argo-cd CLI binary",
+    "options": {
+        "version": {
+            "type": "string",
+            "enum": [
+                "2.13.2"
+            ],
+            "default": "2.13.2",
+            "description": "Choose the version of argo-cd you would like."
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}

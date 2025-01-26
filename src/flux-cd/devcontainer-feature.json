@@ -1,0 +1,19 @@
+{
+    "name": "flux-cd CLI binary",
+    "id": "justingarfield-flux-cd",
+    "version": "1.0.0",
+    "description": "The flux-cd CLI binary",
+    "options": {
+        "version": {
+            "type": "string",
+            "enum": [
+                "2.4"
+            ],
+            "default": "2.4",
+            "description": "Choose the version of flux-cd you would like."
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
