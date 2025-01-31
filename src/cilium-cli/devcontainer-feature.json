@@ -1,6 +1,6 @@
 {
     "name": "Cilium CNI CLI binaries",
-    "id": "cilium-cni",
+    "id": "cilium-cli",
     "version": "1.0.0",
     "description": "Cilium CNI CLI binaries",
     "options": {

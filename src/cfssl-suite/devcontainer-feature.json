@@ -1,6 +1,6 @@
 {
     "name": "CloudFlare cfssl CLI binary suite",
-    "id": "cfssl",
+    "id": "cfssl-suite",
     "version": "1.0.0",
     "description": "CloudFlare cfssl CLI binary suite",
     "options": {
