@@ -20,7 +20,7 @@ My personal collection of [Dev Container Features](https://containers.dev/implem
 | tetragon-cli | Cilium Tetragon `tetra` binary  |
 | yq           | `yq` binary                     |
 
-_Note: See each Feature's available versions by looking at the corresponding `./src/<feature>/devcontainer-feature.json` file_
+_Note: See each Feature's available binary version(s) by looking at the corresponding `./src/<feature>/devcontainer-feature.json` file_
 
 ## References and Attribution
 

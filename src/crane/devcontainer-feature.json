@@ -1,6 +1,6 @@
 {
     "name": "crane binary",
-    "id": "justingarfield-crane",
+    "id": "crane",
     "version": "1.0.0",
     "description": "The crane binary",
     "options": {

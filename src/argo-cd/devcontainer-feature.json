@@ -1,6 +1,6 @@
 {
     "name": "argo-cd CLI binary",
-    "id": "justingarfield-argo-cd",
+    "id": "argo-cd",
     "version": "1.0.0",
     "description": "The argo-cd CLI binary",
     "options": {

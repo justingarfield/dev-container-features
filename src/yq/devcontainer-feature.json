@@ -1,6 +1,6 @@
 {
     "name": "yq binary",
-    "id": "justingarfield-yq",
+    "id": "yq",
     "version": "1.0.0",
     "description": "The yq binary",
     "options": {

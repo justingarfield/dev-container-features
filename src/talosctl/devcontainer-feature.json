@@ -1,6 +1,6 @@
 {
     "name": "talosctl binary",
-    "id": "justingarfield-talosctl",
+    "id": "talosctl",
     "version": "1.0.0",
     "description": "The talosctl binary",
     "options": {

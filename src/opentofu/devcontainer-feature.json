@@ -1,6 +1,6 @@
 {
     "name": "opentofu binary",
-    "id": "justingarfield-opentofu",
+    "id": "opentofu",
     "version": "1.0.0",
     "description": "The opentofu binary",
     "options": {

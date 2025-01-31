@@ -1,6 +1,6 @@
 {
     "name": "flux-cd CLI binary",
-    "id": "justingarfield-flux-cd",
+    "id": "flux-cd",
     "version": "1.0.0",
     "description": "The flux-cd CLI binary",
     "options": {

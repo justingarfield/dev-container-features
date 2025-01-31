@@ -1,6 +1,6 @@
 {
     "name": "Tetragon CLI binaries",
-    "id": "justingarfield-tetragon-cli",
+    "id": "tetragon-cli",
     "version": "1.0.0",
     "description": "Tetragon CLI binaries",
     "options": {
